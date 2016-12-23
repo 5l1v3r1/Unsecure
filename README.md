@@ -1,6 +1,6 @@
 # Security-Bypass
 
-PoC that bypass alerts of Little Flocker / Little Snitch / BlockBlock (same concept can be applied to others security tools).
+PoC that bypass alerts of Little Flocker / Little Snitch / BlockBlock (same concept can be applied to other security tools).
 
 Description: This PoC detect when Little Flocker, Little Snitch or BlockBlock window appear then it automatically click on the "Allow" button by calculating the distance (so it works pretty well on every resolution). The window only appear for a fraction of second.
 
