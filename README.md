@@ -7,7 +7,7 @@ Usage: ./Security-Bypass-Binary [command] [args...]
 
 Example: ./Security-Bypass-Binary /bin/cat /Users/Sabri/Desktop/topsecret.txt
 
-**Works against: Little Snitch, Little Flocker** *(Even with GUI scripting disabled)* **, BlockBlock and many more!**
+**This PoC has been made for Little Flocker but with minor modifications it can also works with Little Snitch** *(Even with GUI scripting disabled)***, BlockBlock and many more!**
 
 **Vulnerable version of Little Flocker: <= 1.3.0 (latest)**
 
