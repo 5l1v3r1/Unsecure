@@ -4,7 +4,7 @@ PoC that bypass auth window of Little Flocker / Little Snitch (same concept can 
 
 Description: This PoC run an external program and detect when Little Flocker or Little Snitch window appear then it automatically click on the "Allow" button by calculating the distance (so it works pretty well on every resolution). The window only appear for a fraction of second.
 
-Usage: ./Security-Bypass-Binary (Then do what you want!)
+To use it, just run ./Security-Bypass-Binary then do what you want!
 
 **This PoC works against Little Flocker and Little Snitch** *(Even with GUI scripting disabled)***, it's easy to implement new mechanism like detection for BlockBlock and many more!**
 
