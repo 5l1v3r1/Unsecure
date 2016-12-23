@@ -10,7 +10,7 @@ Usage: ./Security-Bypass-Binary (Then do what you want!)
 
 **Vulnerable version of macOS: <= 10.12.2 (latest)**
 
-![https://github.com/pwnsdx/Security-Bypass/raw/master/demo.gif](https://github.com/pwnsdx/Security-Bypass/raw/master/demo2.gif)
+![https://github.com/pwnsdx/Security-Bypass/raw/master/demo.gif](https://github.com/pwnsdx/Security-Bypass/raw/master/demo3.gif)
 
 #### License
 
