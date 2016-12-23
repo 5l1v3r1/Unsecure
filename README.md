@@ -6,7 +6,7 @@ Description: This PoC detect when Little Flocker, Little Snitch or BlockBlock wi
 
 To use it, just run ./Security-Bypass-Binary then do what you want!
 
-**This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)*** and BlockBlock. It's easy to implement new detection mechanism!**
+**This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)* **and BlockBlock. It's easy to implement new detection mechanism!**
 
 **Vulnerable version of macOS: <= 10.12.2 (latest)**
 
