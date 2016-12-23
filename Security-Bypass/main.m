@@ -11,14 +11,14 @@
 #import <IOKit/graphics/IOGraphicsLib.h>
 
 void doEvent(CGPoint initialMousePosition, CGEventType event) {
-    // Left button down
+    // Fire the event
     CGEventRef currentEvent = CGEventCreateMouseEvent(NULL, event, CGPointMake(initialMousePosition.x, initialMousePosition.y), kCGMouseButtonLeft);
     CGEventPost(kCGHIDEventTap, currentEvent);
     CFRelease(currentEvent);
 }
 
 void clickOnButton(int width, int height, CGPoint oldLocation) {
-    // Click at the Little Flocker position
+    // Click at the desired position
     CGPoint initialMousePosition = CGPointMake(width, height);
     NSLog(@"Doing some magic...!\n");
     [NSThread sleepForTimeInterval:0.001];
