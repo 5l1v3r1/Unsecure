@@ -7,4 +7,6 @@ Usage: ./Security-Bypass-Binary [command] [args...]
 
 Example: ./Security-Bypass-Binary /bin/cat /Users/Sabri/Desktop/topsecret.txt
 
+**Vulnerable version of Little Flocker: <= 1.3.0**
+
 ![https://github.com/pwnsdx/Security-Bypass/raw/master/demo.gif](https://github.com/pwnsdx/Security-Bypass/raw/master/demo.gif)
