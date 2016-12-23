@@ -1,6 +1,8 @@
 # Security-Bypass
 PoC for Little Flocker (and probably Little Snitch, BlockBlock) window bypass.
 
+Description: This PoC run an external program and detect when Little Flocker window appear then it automtically click on the "Allow" button by calculating the distance (so it works pretty well on every resolutions). The LF window only appear for a fraction of second.
+
 Usage: ./Security-Bypass-Binary [command] [args...]
 
 Example: ./Security-Bypass-Binary /bin/cat /Users/Sabri/Desktop/topsecret.txt
