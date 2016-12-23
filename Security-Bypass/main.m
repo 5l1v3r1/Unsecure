@@ -50,12 +50,13 @@ int main(int argc, const char * argv[]) {
             NSString *kCGWindowLayer = [element objectForKey:@"kCGWindowLayer"];
             NSString *kCGWindowOwnerName = [element objectForKey:@"kCGWindowOwnerName"];
             NSString *kCGWindowIsOnscreen = [element objectForKey:@"kCGWindowIsOnscreen"];
+            NSArray *kCGWindowBounds = [element objectForKey:@"kCGWindowBounds"];
             
             //NSLog(@"%@", element);
+            //continue;
             
             // Little Flocker detection
             if([kCGWindowName isEqualToString:@"Little Flocker"] && [kCGWindowLayer intValue] != 0) {
-                NSArray *kCGWindowBounds = [element objectForKey:@"kCGWindowBounds"];
 
                 // Window is present, click on the button "Allow"
                 clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 666, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 280), oldLocation);
@@ -63,10 +64,16 @@ int main(int argc, const char * argv[]) {
             
             // Little Snitch detection
             if([kCGWindowName isEqualToString:@"Little Snitch"] && [kCGWindowOwnerName isEqualToString:@"Little Snitch Agent"] && [kCGWindowLayer intValue] == 1490 && [kCGWindowIsOnscreen intValue] == 1) {
-                NSArray *kCGWindowBounds = [element objectForKey:@"kCGWindowBounds"];
                 
                 // Window is present, click on the button "Allow"
                 clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 587, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 340), oldLocation);
+            }
+            
+            // BlockBlock detection
+            if([kCGWindowOwnerName isEqualToString:@"BlockBlock"] && [kCGWindowLayer intValue] == 3 && [kCGWindowIsOnscreen intValue] == 1) {
+                
+                // Window is present, click on the button "Allow"
+                clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 634, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 319), oldLocation);
             }
         }
     }
