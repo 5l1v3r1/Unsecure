@@ -1,16 +1,16 @@
-# Security-Bypass
+# Unsecure
 
 PoC that bypass alerts of Little Flocker / Little Snitch / BlockBlock (same concept can be applied to other security tools).
 
 Description: This PoC detect when Little Flocker, Little Snitch or BlockBlock window appear then it automatically click on the "Allow" button by calculating the distance (so it works pretty well on every resolution). The window only appear for a fraction of second.
 
-To use it, just run ./Security-Bypass-Binary then do what you want!
+To use it, just run ./Unsecure-Binary-Release then do what you want!
 
 **This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)* **and BlockBlock. It's easy to implement new detection mechanism!**
 
 **Vulnerable version of macOS: <= 10.12.2 (latest)**
 
-![https://github.com/pwnsdx/Security-Bypass/raw/master/demo.gif](https://github.com/pwnsdx/Security-Bypass/raw/master/demo3.gif)
+![https://github.com/pwnsdx/Unsecure/raw/master/demo.gif](https://github.com/pwnsdx/Unsecure/raw/master/demo3.gif)
 
 #### License
 
