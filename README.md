@@ -6,11 +6,11 @@ Description: This PoC detect when Little Flocker, Little Snitch or BlockBlock wi
 
 To use it, just run ./Unsecure-Release then do what you want!
 
+[Go to download page](https://github.com/pwnsdx/Unsecure/releases)
+
 **This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)* **and BlockBlock. It's easy to implement new detection mechanism!**
 
 **Vulnerable version of macOS: <= 10.12.2 (latest)**
-
-[Download](https://github.com/pwnsdx/Unsecure/releases)
 
 ![https://github.com/pwnsdx/Unsecure/raw/master/demo.gif](https://github.com/pwnsdx/Unsecure/raw/master/demo3.gif)
 
