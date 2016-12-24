@@ -4,11 +4,13 @@ PoC that bypass alerts of Little Flocker / Little Snitch / BlockBlock (same conc
 
 Description: This PoC detect when Little Flocker, Little Snitch or BlockBlock window appear then it automatically click on the "Allow" button by calculating the distance (so it works pretty well on every resolution). The window only appear for a fraction of second.
 
-To use it, just run ./Unsecure-Binary-Release then do what you want!
+To use it, just run ./Unsecure-Release then do what you want!
 
 **This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)* **and BlockBlock. It's easy to implement new detection mechanism!**
 
 **Vulnerable version of macOS: <= 10.12.2 (latest)**
+
+[Download](https://github.com/pwnsdx/Unsecure/releases)
 
 ![https://github.com/pwnsdx/Unsecure/raw/master/demo.gif](https://github.com/pwnsdx/Unsecure/raw/master/demo3.gif)
 
