@@ -2,7 +2,7 @@
 
 Bypass alerts of Little Flocker / Little Snitch / BlockBlock (same concept can be applied to other security tools).
 
-Description: This PoC detect when Little Flocker, Little Snitch or BlockBlock window appear then it automatically click on the "Allow" button by calculating the distance (so it works pretty well on every resolution). The window only appear for a fraction of second.
+Description: This PoC is using a simple yet powerful trick to detect when Little Flocker, Little Snitch or BlockBlock window appear then it automatically click on the "Allow" button by calculating the distance (so it works pretty well on every resolution). The window only appear for a fraction of second.
 
 To use it, just run ./Unsecure-Release then do what you want!
 
