@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Security-Bypass.xcodeproj">
+      location = "self:Unsecure.xcodeproj">
    </FileRef>
 </Workspace>

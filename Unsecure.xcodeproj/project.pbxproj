@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1EB4E2BB1E0C77C800BD15C5 /* Security-Bypass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Security-Bypass"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB4E2BB1E0C77C800BD15C5 /* Unsecure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unsecure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB4E2BE1E0C77C800BD15C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		1EB4E2B21E0C77C800BD15C5 = {
 			isa = PBXGroup;
 			children = (
-				1EB4E2BD1E0C77C800BD15C5 /* Security-Bypass */,
+				1EB4E2BD1E0C77C800BD15C5 /* Unsecure */,
 				1EB4E2BC1E0C77C800BD15C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		1EB4E2BC1E0C77C800BD15C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1EB4E2BB1E0C77C800BD15C5 /* Security-Bypass */,
+				1EB4E2BB1E0C77C800BD15C5 /* Unsecure */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1EB4E2BD1E0C77C800BD15C5 /* Security-Bypass */ = {
+		1EB4E2BD1E0C77C800BD15C5 /* Unsecure */ = {
 			isa = PBXGroup;
 			children = (
 				1EB4E2BE1E0C77C800BD15C5 /* main.m */,
 			);
-			path = "Security-Bypass";
+			path = "Unsecure";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1EB4E2BA1E0C77C800BD15C5 /* Security-Bypass */ = {
+		1EB4E2BA1E0C77C800BD15C5 /* Unsecure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EB4E2C21E0C77C800BD15C5 /* Build configuration list for PBXNativeTarget "Security-Bypass" */;
+			buildConfigurationList = 1EB4E2C21E0C77C800BD15C5 /* Build configuration list for PBXNativeTarget "Unsecure" */;
 			buildPhases = (
 				1EB4E2B71E0C77C800BD15C5 /* Sources */,
 				1EB4E2B81E0C77C800BD15C5 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "Security-Bypass";
-			productName = "Security-Bypass";
-			productReference = 1EB4E2BB1E0C77C800BD15C5 /* Security-Bypass */;
+			name = "Unsecure";
+			productName = "Unsecure";
+			productReference = 1EB4E2BB1E0C77C800BD15C5 /* Unsecure */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1EB4E2B61E0C77C800BD15C5 /* Build configuration list for PBXProject "Security-Bypass" */;
+			buildConfigurationList = 1EB4E2B61E0C77C800BD15C5 /* Build configuration list for PBXProject "Unsecure" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EB4E2BA1E0C77C800BD15C5 /* Security-Bypass */,
+				1EB4E2BA1E0C77C800BD15C5 /* Unsecure */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +234,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EB4E2B61E0C77C800BD15C5 /* Build configuration list for PBXProject "Security-Bypass" */ = {
+		1EB4E2B61E0C77C800BD15C5 /* Build configuration list for PBXProject "Unsecure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EB4E2C01E0C77C800BD15C5 /* Debug */,
@@ -243,7 +243,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EB4E2C21E0C77C800BD15C5 /* Build configuration list for PBXNativeTarget "Security-Bypass" */ = {
+		1EB4E2C21E0C77C800BD15C5 /* Build configuration list for PBXNativeTarget "Unsecure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EB4E2C31E0C77C800BD15C5 /* Debug */,
