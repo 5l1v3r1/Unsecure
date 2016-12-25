@@ -1,22 +1,26 @@
 # Unsecure
 
-Bypass alerts of Little Flocker / Little Snitch / BlockBlock (same concept can be applied to other security tools).
+Bypass alerts of Little Flocker / Little Snitch / HandsOff! / BlockBlock (same concept can be applied to other security tools).
 
-Description: This PoC is using a simple yet powerful trick to detect when Little Flocker, Little Snitch or BlockBlock window appear then it automatically click on the "Allow" button by calculating the distance (so it works pretty well on every resolution). The window only appear for a fraction of second.
+Description: This PoC is using a simple yet powerful trick to detect when Little Flocker, Little Snitch, HandsOff! or BlockBlock window appear then it automatically click on the "Allow" button by calculating the distance (so it works pretty well on every resolution). The window only appear for a fraction of second.
 
 To use it, just run ./Unsecure-Release then do what you want!
 
 [Go to download page](https://github.com/pwnsdx/Unsecure/releases)
 
-**This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)* **and BlockBlock. It's easy to implement new detection mechanism!**
+**This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)* **, HandsOff! and BlockBlock. It's easy to implement new detection mechanism!**
 
 **Vulnerable version of Little Snitch: <= 3.7.1 (latest)**
+
+**Vulnerable version of HandsOff!: <= 3.1.3 (latest)**
+
 **Vulnerable version of BlockBlock: <= 0.9.4 (latest)**
+
 **Vulnerable version of Little Flocker: <= 1.3.0**
 
 *(Note: macOS already have built-in mitigation (see https://twitter.com/pwnsdx/status/812653042898243584) for this kind of attack but are not yet implemented by these security softwares)*
 
-#### News
+#### Timeline
 
 25 Dec: Little Flocker author (@JZdziarski) fixed the issue for both privileged and unprivileged users regarding mouse events and only unprivileged keyboard events (unfortunately he was unable to fix root keyboard events), see https://www.zdziarski.com/littleflocker/CHANGELOG
 
