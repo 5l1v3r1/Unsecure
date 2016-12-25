@@ -10,11 +10,19 @@ To use it, just run ./Unsecure-Release then do what you want!
 
 **This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)* **and BlockBlock. It's easy to implement new detection mechanism!**
 
-**Vulnerable version of Little Flocker: <= 1.3.0 (latest)**
 **Vulnerable version of Little Snitch: <= 3.7.1 (latest)**
 **Vulnerable version of BlockBlock: <= 0.9.4 (latest)**
+**Vulnerable version of Little Flocker: <= 1.3.0**
 
 *(Note: macOS already have built-in mitigation (see https://twitter.com/pwnsdx/status/812653042898243584) for this kind of attack but are not yet implemented by these security softwares)*
+
+#### News
+
+25 Dec: Little Flocker author (@JZdziarski) fixed the issue for both privileged and unprivileged users regarding mouse events and only unprivileged keyboard events (unfortunately he was unable to fix root keyboard events), see https://www.zdziarski.com/littleflocker/CHANGELOG
+
+23 Dec: This repository is made public
+
+#### Demo
 
 ![https://github.com/pwnsdx/Unsecure/raw/master/demo.gif](https://github.com/pwnsdx/Unsecure/raw/master/demo3.gif)
 
