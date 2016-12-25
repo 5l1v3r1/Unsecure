@@ -22,7 +22,7 @@ To use it, just run ./Unsecure-Release then do what you want!
 
 #### Timeline
 
-25 Dec: Little Flocker author (@JZdziarski) fixed the issue for both privileged and unprivileged users regarding mouse events and only unprivileged keyboard events (unfortunately he was unable to fix root keyboard events), see https://www.zdziarski.com/littleflocker/CHANGELOG
+25 Dec: Little Flocker author (@JZdziarski) fixed the issue for both privileged and unprivileged users regarding mouse events and only unprivileged keyboard events (unfortunately he was unable to fix root keyboard events), see https://www.zdziarski.com/littleflocker/CHANGELOG. He also added TouchBar support "only" to Deny/Allow which is immune to this attack.
 
 23 Dec: This repository is made public
 
