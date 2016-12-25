@@ -36,7 +36,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Watching for new windows...\n");
         
         // Ask the window server for the list of windows.
-        CFArrayRef windowList = CGWindowListCopyWindowInfo(kCGWindowListOptionAll, kCGNullWindowID);
+        CFArrayRef windowList = CGWindowListCopyWindowInfo((kCGWindowListOptionOnScreenAboveWindow | kCGWindowListOptionIncludingWindow | kCGWindowListExcludeDesktopElements), kCGNullWindowID);
         NSMutableArray *datas = [(NSArray *) CFBridgingRelease(windowList) mutableCopy];
         
         // Get current location
@@ -91,6 +91,7 @@ int main(int argc, const char * argv[]) {
              clickOnButton(CGPointMake([[kCGWindowBounds valueForKey:@"X"] intValue] + 394, [[kCGWindowBounds valueForKey:@"Y"] intValue] + 170), oldLocation);
              }*/
         }
+        [NSThread sleepForTimeInterval:0.01];
     }
 
     return 0;
