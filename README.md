@@ -24,6 +24,8 @@ To use it, just run ./Unsecure-Release then do what you want!
 
 4 Jan: Objective Development deployed a fix for Little Snitch. Please ensure it is updated to 3.7.2.
 
+![https://i.imgur.com/zuz9cPB.png](https://i.imgur.com/zuz9cPB.png)
+
 25 Dec: Little Flocker author (@JZdziarski) fixed the issue for both privileged and unprivileged users regarding mouse events and only unprivileged keyboard events (unfortunately he was unable to fix root keyboard events), see https://www.littleflocker.com/downloads/CHANGELOG. He also added TouchBar support "only" to Deny/Allow which is immune to this attack.
 
 23 Dec: This repository is made public
