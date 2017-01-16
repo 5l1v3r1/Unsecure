@@ -12,7 +12,7 @@ To use it, just run ./Unsecure-Release then do what you want!
 
 **Vulnerable version of HandsOff!: <= 3.1.3 (latest)**
 
-**Vulnerable version of BlockBlock: <= 0.9.4 (latest)**
+**Vulnerable version of BlockBlock: <= 0.9.4**
 
 **Vulnerable version of Little Snitch: <= 3.7.1**
 
@@ -21,6 +21,8 @@ To use it, just run ./Unsecure-Release then do what you want!
 *(Note: macOS already have built-in mitigation (see https://twitter.com/pwnsdx/status/812653042898243584) for this kind of attack but are not yet implemented by these security softwares)*
 
 #### Timeline
+
+16 Jan: Objective-See deployed a fix for BlockBlock. You should update asap.
 
 4 Jan: Objective Development deployed a fix for Little Snitch. Please ensure it is updated to 3.7.2.
 
