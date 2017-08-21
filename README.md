@@ -10,7 +10,7 @@ To use it, just run ./Unsecure-Release then do what you want!
 
 **This PoC works against Little Flocker, Little Snitch** *(Even with GUI scripting disabled)* **, HandsOff! and BlockBlock. It's easy to implement new detection mechanism!**
 
-**Vulnerable version of HandsOff!: <= 3.1.3 (latest)**
+**Vulnerable version of HandsOff!: <= 3.2.1**
 
 **Vulnerable version of BlockBlock: <= 0.9.4**
 
@@ -21,6 +21,8 @@ To use it, just run ./Unsecure-Release then do what you want!
 *(Note: macOS already have built-in mitigation (see https://twitter.com/pwnsdx/status/812653042898243584) for this kind of attack but are not yet implemented by these security softwares)*
 
 #### Timeline
+
+16 Aug: HandsOff! patched the issue (quite lately but better late than never) so please update as well!
 
 16 Jan: Objective-See deployed a fix for BlockBlock. You should update asap.
 
