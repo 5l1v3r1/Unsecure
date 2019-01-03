@@ -43,7 +43,7 @@ To use it, just run ./Unsecure-Release then do what you want!
 ```
 The MIT License (MIT)
 
-Copyright (c) 2016 Sabri Haddouche <https://pwnsdx.pw/>
+Copyright (c) 2016 Sabri Haddouche <sabri@riseup.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
